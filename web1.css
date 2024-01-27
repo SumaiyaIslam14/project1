@@ -1,0 +1,42 @@
+body{
+    background-color: bisque;
+}
+.title{
+    color: rgb(255, 231, 231);
+    text-align: center;
+    position: relative;
+}
+.bor{
+    border: 1px solid orangered;
+    height: 500px;
+    position: relative;
+}
+.hh{
+    background-color: rgb(14, 14, 24);
+    padding: 12px;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    height: 50px;
+    width: 85%;
+    top: 15px;
+    right: 7%;
+    background-color: transparent;
+    border: 2px solid black;
+    z-index: -1;
+    border-bottom: 0px;
+}
+
+.bor::after{content: "";
+    position: absolute;
+    height: 50px;
+    width: 85%;
+    bottom: 15px;
+    right: 7%;
+    background-color: transparent;
+    border: 2px solid black;
+    z-index: -1;
+    border-top: 0px;
+
+}

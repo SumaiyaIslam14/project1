@@ -1,0 +1,28 @@
+.clearfix{
+    padding: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid orange;
+    border-radius: 50px;
+
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+}
+p{
+    padding: 100px;
+}
+i{
+    color: pink;
+    
+}
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  

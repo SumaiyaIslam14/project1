@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Brush Script MT", cursive;
+    font-size: 50px;
+    background-color: rgb(2, 10, 44);
+}
+h1{
+    text-align: center;
+    color: rgb(226, 56, 14);
+    margin: 50px 0px;
+    letter-spacing: 8px;
+}
+
+
+.full{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 5px;
+}
+.first-col{
+    width: 40%;
+}
+.second-col{
+    width: 40%;
+}
+.thrid-col{
+    width: 40%;
+}
+img{
+    margin: 10px 15px;
+    padding: 10px;
+    border-radius: 30px;
+    width: 400px;
+    transition: 1.5s;
+    opacity: 0.1;
+}
+img:hover{
+    width: 450px;
+    opacity: 1;
+    transition: 1.5s;
+    cursor: pointer;
+}

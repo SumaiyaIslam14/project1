@@ -1,0 +1,80 @@
+<html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fill Up the Form</title>
+        <style>
+           .submit1{text-align: center;} 
+           h1{text-align: center; color: brown; background-color: bisque;}
+           h2{text-align: center; background-color: azure;}
+        </style>
+        <link rel="stylesheet" href="./styles/style.css">
+    </head>
+    <div class="bgimage">
+    <body>
+        <table>
+            <form>
+                <h1>School Admission Form</h1>
+                <h2> AAA School</h2>
+                <tr>
+                    <td>Student's Name*</td>
+                    <td> <input type="text" placeholder="first name"></td>
+                    <td> <input type="test" placeholder="last name"></td>
+                </tr>
+                
+                <tr>
+                    <td>Student's DoB*</td>
+                    <td> <input type="date"></td>
+
+                </tr>
+                <tr>
+                    <td>Parent Name*</td>
+                    <td> <input type="text" placeholder="first name"></td>
+                    <td> <input type="text" placeholder="last name"></td>
+                </tr>
+                <tr>
+                    <td>Current Address</td>
+                    <td> <input type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Class you want to apply for*</td>
+                        <td> <input type="radio" value="5" id="cl-5">
+                        <level for="cl-5">Class 5</level>
+                        <br>
+                         <input type="radio" value="6" id="cl-6">
+                            <level for="cl-6">Class 6</level></td>
+                    </tr>
+                    <tr>
+                        <td>Phone Number</td>
+                        <td> <input type="text" maxlength="11" required></td>
+    
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td> <input type="email" placeholder="xxx@.com" required></td>
+    
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>
+                            <select name="city" id="city">
+                                <option value="rajshahi">rajshahi</option>
+                                <option value="dhaka">dhaka</option>
+                                <option value="khulna">khulna</option>
+                              </select>
+                        </td>
+                    </tr>
+                    
+            </form>
+        </table>
+        <hr>
+        <div class="submit1">
+            <button>Submit</button>
+        </div>
+        
+    </body>
+    </div>
+    </html>
+</html>

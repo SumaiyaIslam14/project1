@@ -1,0 +1,15 @@
+table, tr,th,td{
+    border: 1px solid rgb(56, 21, 21);
+    height: 50px; width: 500px; text-align: center;;
+}
+table{width: 100%;
+    border-top: 2px dotted lightblue;
+    border-right: 3px solid darkblue;
+    border-bottom: 4px dotted darkgray;
+    border-left: 5px solid navy;
+
+}
+
+.inden-style{
+    background-image: linear-gradient(rgb(73, 255, 240), rgb(235, 138, 109),rgb(248, 45, 106));
+}

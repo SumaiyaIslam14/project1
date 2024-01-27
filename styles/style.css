@@ -1,0 +1,13 @@
+body{
+    background-color: lightgreen;
+}
+
+.bgimage{
+
+    background-image: url("../images/image1.jpg");
+    height: 1000px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
